@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: grey;
+}
+
+.clock {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 18px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+@keyframes sec_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes min_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes hour_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.hour,
+.sec,
+.min {
+    line-height: 45px;
+    position: relative;
+    transform-origin: bottom;
+}
+
+.min {
+    height: 250px;
+    width: 10px;
+    background: black;
+    z-index: 2;
+    left: 243px;
+    top: -250px;
+    animation: hour_anim 6000s linear infinite;
+}
+
+.hour {
+    height: 250px;
+    width: 20px;
+    background: green;
+    z-index: 1;
+    left: 248px;
+    top: -430px;
+    animation: min_anim 600000s linear infinite;
+}
+
+.sec {
+    height: 250px;
+    width: 5px;
+    background: red;
+    z-index: 3;
+    left: 245px;
+    top: -500px;
+    animation: sec_anim 600s linear infinite;
+}
