@@ -1,0 +1,146 @@
+.contact-me {
+    padding-top: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: comic sans ms sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 300px;
+}
+
+.brand img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    filter: invert(100);
+}
+
+.html img {
+    position: absolute;
+    left: 18%;
+    top: 0;
+    filter: invert(100);
+}
+
+.python img {
+    position: absolute;
+    left: 57.68%;
+    top: 0;
+    filter: invert(100);
+}
+
+.css img {
+    position: absolute;
+    left: 38%;
+    top: 0;
+    filter: invert(100);
+}
+
+.c img {
+    position: absolute;
+    left: 79%;
+    top: 0;
+    filter: invert(100);
+}
+
+h3 {
+    color: #11999E;
+}
+
+hr {
+    border: dotted #F6C6EA 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 0px auto;
+}
+
+.profile {
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.topmost {
+    font-size: 30px;
+    background-color: #66BFBF;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    color: #66BFBF;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: comic sans ms, sans-serif;
+}
+
+.middle-container {
+    margin: 140px 0;
+    background-color: #C6FFC1;
+    margin-bottom: 10px;
+}
+
+.p {
+    line-height: 2;
+}
+
+.contact-message {
+    color: #66BFBF;
+    width: 40%;
+    margin: 40px auto;
+}
